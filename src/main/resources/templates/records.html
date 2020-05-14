@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<!-- Required meta tags-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--CSS-->
+<link rel="stylesheet" type="text/css"
+	href="vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/main2.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Page Title -->
+<title>Student Registration Records</title>
+</head>
+<body>
+
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1 class="text-light">Student Registration Records</h1>
+			<p class="text-light">You may find most up to date student
+				registration rosters in below table</p>
+		</div>
+	</div>
+	<div th:switch="${#lists.size(students)}" class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+
+				<div th:case="'0'">
+					<h1 class="column6">There is no student record to show!</h1>
+
+				</div>
+
+				<div th:case="*" class="table100">
+					<table>
+						<thead>
+							<tr class="table100-head">
+
+								<th class="column1">Id</th>
+								<th class="column2">First Name</th>
+								<th class="column3">Last Name</th>
+								<th></th>
+								<th></th>
+
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr th:each="student : ${students}">
+								<td class="column1" th:text="${student.fname}">First Name</td>
+								<td class="column2" th:text="${student.lname}">Last Name</td>
+								<td class="column3" th:text="${student.email}">Email
+									Address</td>
+
+								<td>
+									<form class="column1" th:action="@{/deleteStudent}"
+										method="post">
+										<input type="hidden" name="id" th:value="${student.id}" /> <input
+											type="submit" value="Delete" class="btn btn-danger" />
+									</form>
+								</td>
+
+								<td>
+									<form class="column1" th:action="@{/editStudent}" method="get">
+										<input type="hidden" name="id" th:value="${student.id}" /> <input
+											type="submit" value="Edit" class="btn btn-info" />
+									</form>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div>
+				<tr>
+					<a class="btn btn-outline-info" href="/" role="button">
+						<h4 class="column6">Click here to add students</h4>
+					</a>
+				</tr>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<li><a href="https://www.facebook.com/" class="fa fa-facebook"
+				style="font-size: 48px"></a></li>
+			<li><a href="https://twitter.com/" class="fa fa-twitter"
+				style="font-size: 48px"></a></li>
+			<li><a href="https://www.instagram.com/" class="fa fa-instagram"
+				style="font-size: 48px"></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; School Works, LLC</li>
+			<li>Design: by Mehmet Gokcek</li>
+			<li>Images: <a href="https://colorlib.com">Colorlib</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
