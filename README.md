@@ -1,4 +1,4 @@
-A student registration web application based on Spring Boot frame work using mysql, Thymleaf and H2 database. 
+A student registration web application based on Spring Boot framework using mysql, Thymleaf and H2 database. 
 
 Check out the documentation folder for dependencies and over all flowchart of the MVC.
 
