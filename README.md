@@ -8,3 +8,4 @@ View run test video here: https://youtu.be/VtQUYvHmqlY
 
 View live demo of the project on AWS here: http://studentmanagement-env.eba-ijge4y42.us-east-2.elasticbeanstalk.com/
  
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
