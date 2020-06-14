@@ -1,7 +1,8 @@
-You have been already developing the project the whole semester. Now, improve it to include Spring Framework.
+A student registration web application based on Spring Boot frame work using mysql, Thymleaf and H2 database. 
 
-Your Project should involve JSPs, Servlets, Spring Framework.
+Check out the documentation folder for dependencies and over all flowchart of the MVC.
 
-The documentation should include Introduction of your project, Technical documentation such as flowchart, descriptions of the technical details of pages in the application and user document.
+View run test video here: https://youtu.be/VtQUYvHmqlY
 
-You also include screen shots of the working model of the project. 
+View live demo of the project here: http://studentmanagement-env.eba-ijge4y42.us-east-2.elasticbeanstalk.com/
+ 
