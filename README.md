@@ -9,3 +9,9 @@ View run test video here: https://youtu.be/VtQUYvHmqlY
 View live demo of the project on AWS here: http://studentmanagement-env.eba-ijge4y42.us-east-2.elasticbeanstalk.com/
  
 ![MVC Flowchart](https://github.com/mehmetGokcek/StudentRegistration/blob/master/Documentation%20and%20RunTest/Flow%20Architecture.jpg)
+
+ 
+![Dependencies](https://github.com/mehmetGokcek/StudentRegistration/blob/master/Documentation%20and%20RunTest/Dependencies.JPG)
+
+![Hibernate](https://github.com/mehmetGokcek/StudentRegistration/blob/master/Documentation%20and%20RunTest/hibernate.PNG)
+
