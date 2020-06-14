@@ -1,5 +1,7 @@
 A student registration web application based on Spring Boot framework using mysql, Thymleaf and H2 database. 
 
+It employs mySQL database to store and view customer information.
+
 View run test video here: https://youtu.be/VtQUYvHmqlY
 
 View live demo of the project on AWS here: http://studentmanagement-env.eba-ijge4y42.us-east-2.elasticbeanstalk.com/
