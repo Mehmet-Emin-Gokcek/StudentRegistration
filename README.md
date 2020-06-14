@@ -4,5 +4,5 @@ Check out the documentation folder for dependencies and over all flowchart of th
 
 View run test video here: https://youtu.be/VtQUYvHmqlY
 
-View live demo of the project here: http://studentmanagement-env.eba-ijge4y42.us-east-2.elasticbeanstalk.com/
+View live demo of the project on AWS here: http://studentmanagement-env.eba-ijge4y42.us-east-2.elasticbeanstalk.com/
  
