@@ -4,7 +4,9 @@ It employs mySQL database to store and view customer information.
 
 View run test video here: https://youtu.be/VtQUYvHmqlY
 
-View live demo of the project on AWS here: http://studentmanagement-env.eba-ijge4y42.us-east-2.elasticbeanstalk.com/
+**Basic Functions**
+Adding Students: (Create Users)
+https://github.com/mehmetGokcek/StudentRegistration/blob/master/Documentation%20and%20RunTest/Add%20Students.gif
 
 Below you may see detailed documentation of the project. 
  
