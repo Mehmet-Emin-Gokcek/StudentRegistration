@@ -5,6 +5,7 @@ It employs mySQL database to store and view customer information.
 View run test video here: https://youtu.be/VtQUYvHmqlY
 
 **Basic Functions**
+
 **Adding Students: (Create Users)**
 ![Add Students](https://github.com/mehmetGokcek/StudentRegistration/blob/master/Documentation%20and%20RunTest/Add%20Students.gif)
 
