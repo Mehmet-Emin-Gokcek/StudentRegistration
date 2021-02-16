@@ -9,6 +9,11 @@ View run test video here: https://youtu.be/VtQUYvHmqlY
 **Adding Students: (Create Users)**
 ![Add Students](https://github.com/mehmetGokcek/StudentRegistration/blob/master/Documentation%20and%20RunTest/Add%20Students.gif)
 
+
+**Edit Students: (Update Users)**
+![Add Students](https://github.com/mehmetGokcek/StudentRegistration/blob/master/Documentation%20and%20RunTest/Update%20Student.gif)
+
+
 **Deleting Students: (Delete Users)**
 ![Delete Students](https://github.com/mehmetGokcek/StudentRegistration/blob/master/Documentation%20and%20RunTest/Delete%20User.gif)
 
